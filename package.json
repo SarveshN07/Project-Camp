@@ -1,0 +1,35 @@
+{
+  "name": "projectcamp",
+  "version": "1.0.0",
+  "description": "a project management application for beginners",
+  "keywords": [
+    "udemy",
+    "course"
+  ],
+  "homepage": "https://github.com/SarveshN07/Project-Camp#readme",
+  "bugs": {
+    "url": "https://github.com/SarveshN07/Project-Camp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarveshN07/Project-Camp.git"
+  },
+  "license": "ISC",
+  "author": "Sarvesh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2"
+  }
+}
